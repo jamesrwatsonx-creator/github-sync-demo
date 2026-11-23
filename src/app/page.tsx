@@ -102,6 +102,8 @@ export default function Home() {
             </button>
           </div>
         </form>
+        <p className="mt-5 text-sm"><a href="/atlas" className="font-medium underline text-orange-700 hover:text-orange-800">Open Repository Atlas Intelligence →</a></p>
+        <p className="mt-2 text-xs"><a href="/atlas-local.html" className="underline text-zinc-500">Local-first Atlas (images, web links and fork workflow)</a></p>
         {error && (
           <motion.p
             initial={{ opacity: 0, y: -5 }}
